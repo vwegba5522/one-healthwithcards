@@ -9,7 +9,8 @@
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(./Images/hospital-reception.jpg);
   background-position: center;
   background-size: cover;
-  height: 500px;
+  text-align: center;
+  height: 700px;
 }
 
 .designtext {
@@ -56,5 +57,64 @@
   .hero1 {
       justify-content: center;
       padding-top: 60px;
+  }
+}
+
+.fulll {
+  background: #f1f0f0;
+}
+
+.fullhero {
+  display: flex;
+  width: 90%;
+  margin-left: 8%;
+}
+
+.seperate {
+  margin-top: 15%;
+  margin-left: 6%;
+}
+
+.seperate h1 {
+  color: #333;
+  font-weight: 400;
+  font-size: 42px;
+  letter-spacing: none;
+  font-family: sans-serif;
+}
+
+.seperate p {
+  color: #696969;
+  font-weight: 500;
+  font-size: 16px;
+  justify-content: center;
+  margin-top: 10px;
+  line-height: 25px;
+  font-family: sans-serif;
+}
+
+.immg {
+  width: 32%;
+  margin-top: 10%;
+  margin-left: 5%;
+}
+
+@media (max-width:480px) {
+  .fulll {
+      margin-top: -58px;
+  }
+
+  .fullhero {
+      display: block;
+  }
+
+  .seperate {
+      padding-top: 50%;
+      margin-left: -15px;
+  }
+
+  .immg {
+      width: 100%;
+      margin-left: -20px;
   }
 }

@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "./components/Navbar/Navbar";
 import "./App.css";
-import Images from './Images/bg-doctor.png';
+import img1 from './Images/bg-doctor.png';
 
 
 
@@ -18,6 +18,23 @@ function App() {
             </div>
         </div>
     </section>
+    
+    <div className="fulll">
+        <div className="fullhero">
+            <div className="seperate">
+                <h1>Welcome to Your Health<br/> Center</h1>
+                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy<br/> eirmod tempor invidunt
+                    ut
+                    labore et dolore magna aliquyam erat, sed diam<br/> voluptua. At vero eos et accusam et justo duo
+                    dolores
+                    et ea rebum.<br/>Accusantium aperiam earum ipsa eius, inventore nemo labore eaque porro<br/>
+                    consequatur
+                    ex aspernatur. Explicabo, excepturi accusantium! Placeat<br/> voluptates esse ut optio facilis!</p>
+                <button className="button-hero">Learn More</button>
+            </div>
+            <img className="immg" src={img1} alt=""/>
+        </div>
+    </div>
     </div>
   );
 }
