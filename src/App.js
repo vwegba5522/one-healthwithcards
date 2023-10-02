@@ -17,20 +17,6 @@ function App() {
             </div>
         </div>
     </section>
-    <section className="containcards">
-        <div className="cards">
-            <img className="heroimg" src="./Images (2).png" alt=""/>
-            <p className='...'>Chat with a <br/> doctors</p>
-        </div>
-        <div className="cards">
-            <img className="heroimg" src="./Images.png" alt=""/>
-            <p>One-Health Protection</p>
-        </div>
-        <div className="cards">
-            <img className="heroimg" src="./Images (1).png" alt=""/>
-            <p>One-Health Pharmacy</p>
-        </div>
-    </section>
     </div>
   );
 }
