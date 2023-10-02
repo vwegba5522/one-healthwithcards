@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "./components/Navbar/Navbar";
 import "./App.css";
+import Images from './Images/bg-doctor.png';
 
 
 
