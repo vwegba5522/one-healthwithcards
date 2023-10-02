@@ -17,6 +17,20 @@ function App() {
             </div>
         </div>
     </section>
+    <section className="containcards">
+        <div className="cards">
+            <img className="heroimg" src="img/images (2).png" alt=""/>
+            <p className>Chat with a doctors</p>
+        </div>
+        <div className="cards">
+            <img className="heroimg" src="img/images.png" alt=""/>
+            <p>One-Health Protection</p>
+        </div>
+        <div className="cards">
+            <img className="heroimg" src="img/images (1).png" alt=""/>
+            <p>One-Health Pharmacy</p>
+        </div>
+    </section>
     </div>
   );
 }
