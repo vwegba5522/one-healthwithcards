@@ -118,3 +118,60 @@
       margin-left: -20px;
   }
 }
+
+.aboutflex {
+  display: flex;
+  justify-content: center;
+  background-color: #f1f0f0;
+  margin-top: -9%;
+  align-items: center;
+  height: 760px;
+
+}
+
+.aboutflex_main {
+  display: flex;
+  justify-content: center;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 13%;
+  width: 60%;
+
+}
+
+.main h1 {
+  font-size: 45px;
+  font-weight: 400;
+  color: #333;
+}
+
+.paragraphs {
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  margin-top: 2%;
+  margin-left: 2%;
+  line-height: 32px;
+}
+
+.paragraphs p {
+  color: #555;
+  font-size: 18px;
+}
+
+@media (max-width:480px) {
+  .aboutflex {
+      height: 1200px;
+      width: 100%;
+      margin-top: -60px;
+  }
+
+  .main {
+      width: 100%;
+  }
+}
