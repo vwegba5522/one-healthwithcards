@@ -4,6 +4,10 @@ import "./App.css";
 import img1 from './Images/bg-doctor.png';
 import { About } from "./components/Lists/AboutUs";
 import { Homes } from "./components/Lists/Home";
+import Card from './components/Lists/Card'
+import img2 from './Images/doctor_1.jpg'
+import BackToTop from "./BackToTop";
+import Footer from "./footer/footer";
 
 
 
@@ -87,6 +91,12 @@ function App() {
             </section>
 
             <About />
+            <Card  title='Card Title'
+            imageUrl={img2}
+            body='List of Countries without Coronavirus case'
+            />
+            <BackToTop/>
+            <Footer />
         </div>
     );
 }
